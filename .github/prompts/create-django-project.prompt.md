@@ -1,9 +1,7 @@
----
-mode: 'agent'
+agent: 'agent'
 model: GPT-4.1
 description: 'Create a Django project, start it, and run it'
----
-
+O atributo "agent" substitui o antigo "mode". Renomeie "mode" para "agent".
 Your task is to create the Django project in octofit-tracker/backend/octofit_tracker directory using the Python
 virtual environment we already created in directory octofit-tracker/backend/venv which contains all the prerequisites.
 
